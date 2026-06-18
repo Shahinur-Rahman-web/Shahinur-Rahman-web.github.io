@@ -9,37 +9,31 @@
       <div class="interest-card">
         <div class="interest-icon">&#127754;</div>
         <h3>Natural Hazards</h3>
-        <p>Flood risk characterization, compound flood event analysis, and hazard assessment in low-lying coastal and riverine systems.</p>
       </div>
 
       <div class="interest-card">
         <div class="interest-icon">&#127777;</div>
         <h3>Climate Change Impacts</h3>
-        <p>Long-term trends in extreme rainfall, aerosol loading, and climate-driven shifts in energy demand and environmental conditions.</p>
       </div>
 
       <div class="interest-card">
         <div class="interest-icon">&#127807;</div>
         <h3>Nature-Based Solutions</h3>
-        <p>Performance monitoring and modeling of green stormwater infrastructure — bioswales, rain gardens, and other low-impact development approaches.</p>
       </div>
 
       <div class="interest-card">
         <div class="interest-icon">&#127968;</div>
         <h3>Community Resilience</h3>
-        <p>Machine-learning and multi-criteria methods for prioritizing flood adaptation strategies in vulnerable communities, with an emphasis on equity and local context.</p>
       </div>
 
       <div class="interest-card">
         <div class="interest-icon">&#128200;</div>
         <h3>Hydrologic-Hydraulic Modeling</h3>
-        <p>Field-calibrated stormwater and watershed models using PCSWMM and related tools, driven by corrected sensor data and design storm analysis.</p>
       </div>
 
       <div class="interest-card">
         <div class="interest-icon">&#128752;</div>
         <h3>Remote Sensing &amp; GIS</h3>
-        <p>Satellite-based analysis of vegetation recovery, atmospheric aerosols, and land-use change using Google Earth Engine and ArcGIS Pro.</p>
       </div>
 
     </div>
@@ -56,7 +50,8 @@
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 18px 18px;
+  padding: 24px 20px;
+  text-align: center;
   transition: transform .15s ease, box-shadow .15s ease;
 }
 .interest-card:hover{
@@ -64,20 +59,15 @@
   box-shadow: 0 10px 22px -12px rgba(32,40,43,0.2);
 }
 .interest-icon{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 10px;
   line-height: 1;
 }
 .interest-card h3{
-  font-size: 1rem;
-  margin-bottom: 6px;
+  font-size: 1.05rem;
+  margin: 0;
   color: var(--ink);
   font-family: 'Spectral', serif;
-}
-.interest-card p{
-  font-size: 0.9rem;
-  margin: 0;
-  color: var(--ink-soft);
 }
 @media (max-width: 860px){
   .interests-grid{ grid-template-columns: repeat(2, 1fr); }
