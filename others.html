@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Your Name] — Scientific Engagement, Awards &amp; Certifications</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">[Your Name]</a>
+    <button class="nav-toggle mono" id="navToggle" aria-label="Toggle menu">MENU</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li class="has-dropdown">
+          <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Background</button>
+          <ul class="dropdown">
+            <li><a href="background.html#education">Education</a></li>
+            <li><a href="background.html#experience">Experience</a></li>
+          </ul>
+        </li>
+        <li><a href="research.html" class="nav-link">Research Projects</a></li>
+        <li class="has-dropdown">
+          <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Skills</button>
+          <ul class="dropdown">
+            <li><a href="skills.html#software">Software</a></li>
+            <li><a href="skills.html#sensing">Environmental Sensing</a></li>
+            <li><a href="skills.html#social">Social &amp; Community Research</a></li>
+          </ul>
+        </li>
+        <li><a href="publications.html" class="nav-link">Publications</a></li>
+        <li class="has-dropdown open">
+          <button class="nav-link dropdown-toggle active" aria-haspopup="true" aria-expanded="false">Others</button>
+          <ul class="dropdown">
+            <li><a href="others.html#engagement">Scientific Engagement</a></li>
+            <li><a href="others.html#awards">Awards &amp; Membership</a></li>
+            <li><a href="others.html#certifications">Certifications</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <a href="cv.pdf" class="btn-cv" download>Download CV</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow mono">OTHERS</span>
+      <h1>Scientific Engagement, Awards &amp; Certifications</h1>
+      <p class="lede">Conferences and presentations, recognitions and memberships, and professional certifications in progress.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="tabs" data-default="engagement">
+        <div class="tab-buttons" role="tablist">
+          <button class="tab-btn" data-tab="engagement" role="tab">Scientific Engagement</button>
+          <button class="tab-btn" data-tab="awards" role="tab">Awards &amp; Membership</button>
+          <button class="tab-btn" data-tab="certifications" role="tab">Certifications</button>
+        </div>
+
+        <!-- SCIENTIFIC ENGAGEMENT -->
+        <div class="tab-panel" id="engagement" role="tabpanel">
+          <div class="entry">
+            <div class="entry-head"><h3>[Conference / Event Name]</h3><span class="entry-meta mono">[Year]</span></div>
+            <div class="entry-org">[Location / Format — e.g. poster, oral presentation]</div>
+            <p>[Title of what you presented, one line.]</p>
+          </div>
+          <div class="entry">
+            <div class="entry-head"><h3>[Conference / Event Name]</h3><span class="entry-meta mono">[Year]</span></div>
+            <div class="entry-org">[Location / Format]</div>
+            <p>[Title of what you presented, one line.]</p>
+          </div>
+          <div class="entry" style="border-bottom:none;">
+            <div class="entry-head"><h3>[Conference / Event Name]</h3><span class="entry-meta mono">[Year]</span></div>
+            <div class="entry-org">[Location / Format]</div>
+            <p>[Title of what you presented, one line.]</p>
+          </div>
+        </div>
+
+        <!-- AWARDS & MEMBERSHIP -->
+        <div class="tab-panel" id="awards" role="tabpanel" hidden>
+          <div class="entry">
+            <div class="entry-head"><h3>[Award / Honor Name]</h3><span class="entry-meta mono">[Year]</span></div>
+            <p>[One line on what it was for / awarding body.]</p>
+          </div>
+          <div class="entry">
+            <div class="entry-head"><h3>[Professional Membership]</h3><span class="entry-meta mono">[Year &ndash; Present]</span></div>
+            <p>[Organization name, e.g. AWRA, ASFPM, AGU.]</p>
+          </div>
+          <div class="entry" style="border-bottom:none;">
+            <div class="entry-head"><h3>[Voluntary / Synergistic Activity]</h3><span class="entry-meta mono">[Year]</span></div>
+            <p>[E.g. peer reviewer, departmental committee, outreach program.]</p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATIONS -->
+        <div class="tab-panel" id="certifications" role="tabpanel" hidden>
+          <div class="entry">
+            <div class="entry-head"><h3>Certified Floodplain Manager (CFM)</h3><span class="entry-meta mono">[Status: studying / scheduled / passed — Year]</span></div>
+            <p>[Add a line if you'd like — e.g. "preparing to sit the exam in [month/year]."]</p>
+          </div>
+          <div class="entry">
+            <div class="entry-head"><h3>Certified Energy Manager (CEM)</h3><span class="entry-meta mono">[Status — Year]</span></div>
+            <p>[Add a line on current status.]</p>
+          </div>
+          <div class="entry" style="border-bottom:none;">
+            <div class="entry-head"><h3>Associate Safety Professional (ASP) / Certified Safety Professional (CSP) pathway</h3><span class="entry-meta mono">[Status — Year]</span></div>
+            <p>[Add a line on current status.]</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="mono">&copy; <span id="year"></span> [Your Name]</div>
+    <div class="contact-links">
+      <a href="mailto:your.email@university.edu">Email</a>
+      <a href="#">Google Scholar</a>
+      <a href="#">ORCID</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
