@@ -1,0 +1,37 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="brand">{{ site.name }}</a>
+    <button class="nav-toggle mono" id="navToggle" aria-label="Toggle menu">MENU</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}" class="nav-link{% if page.section == 'home' %} active{% endif %}">Home</a></li>
+        <li class="has-dropdown">
+          <button class="nav-link dropdown-toggle{% if page.section == 'background' %} active{% endif %}" aria-haspopup="true" aria-expanded="false">Background</button>
+          <ul class="dropdown">
+            <li><a href="{{ '/background/' | relative_url }}#education">Education</a></li>
+            <li><a href="{{ '/background/' | relative_url }}#experience">Experience</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ '/research/' | relative_url }}" class="nav-link{% if page.section == 'research' %} active{% endif %}">Research Projects</a></li>
+        <li class="has-dropdown">
+          <button class="nav-link dropdown-toggle{% if page.section == 'skills' %} active{% endif %}" aria-haspopup="true" aria-expanded="false">Skills</button>
+          <ul class="dropdown">
+            <li><a href="{{ '/skills/' | relative_url }}#software">Software</a></li>
+            <li><a href="{{ '/skills/' | relative_url }}#sensing">Environmental Sensing</a></li>
+            <li><a href="{{ '/skills/' | relative_url }}#social">Social &amp; Community Research</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ '/publications/' | relative_url }}" class="nav-link{% if page.section == 'publications' %} active{% endif %}">Publications</a></li>
+        <li class="has-dropdown">
+          <button class="nav-link dropdown-toggle{% if page.section == 'others' %} active{% endif %}" aria-haspopup="true" aria-expanded="false">Others</button>
+          <ul class="dropdown">
+            <li><a href="{{ '/others/' | relative_url }}#engagement">Scientific Engagement</a></li>
+            <li><a href="{{ '/others/' | relative_url }}#awards">Awards &amp; Membership</a></li>
+            <li><a href="{{ '/others/' | relative_url }}#certifications">Certifications</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="btn-cv" download>Download CV</a>
+  </div>
+</header>

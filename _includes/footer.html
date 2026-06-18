@@ -1,0 +1,14 @@
+<footer>
+  <div class="wrap">
+    <div class="mono">&copy; <span id="year"></span> {{ site.name }}</div>
+    <div class="footer-links">
+      <a href="mailto:{{ site.email }}">Email</a>
+      {% if site.google_scholar != "" %}<a href="{{ site.google_scholar }}">Google Scholar</a>{% endif %}
+      {% if site.orcid != "" %}<a href="{{ site.orcid }}">ORCID</a>{% endif %}
+      {% if site.linkedin != "" %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+      {% if site.researchgate != "" %}<a href="{{ site.researchgate }}">ResearchGate</a>{% endif %}
+    </div>
+  </div>
+</footer>
+<script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
