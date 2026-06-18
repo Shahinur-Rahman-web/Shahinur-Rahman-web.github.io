@@ -6,11 +6,9 @@ section: home
 
 {% include home_hero.html %}
 
-<section style="padding:40px 0; border-bottom:1px solid var(--line);">
-<div class="wrap">
-<span class="eyebrow mono">CURRENTLY</span>
-<p style="max-width:680px; font-size:1.02rem; color:var(--ink);">{{ site.currently }}</p>
-</div>
-</section>
+{% include home_interests.html %}
+
+{% include home_currently.html %}
 
 {% include home_cards.html %}
+
