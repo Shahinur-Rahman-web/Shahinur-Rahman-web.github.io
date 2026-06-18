@@ -1,18 +1,19 @@
 <section class="home-hero">
   <div class="wrap hero-grid">
-    <div>
-      <span class="eyebrow mono">{{ site.role | upcase }}</span>
-      <h1 class="hero-name">{{ site.name }}</h1>
-      <p class="role">{{ site.tagline }}</p>
-      <p class="info mono">{{ site.university }} &middot; {{ site.department }} &middot; {{ site.location }}</p>
-    </div>
     <div class="portrait-wrap">
-      <div class="portrait-placeholder">
+      <div class="portrait-placeholder round">
         Add your photo here.<br>
         Save it as <code>assets/images/profile.jpg</code><br>
         then replace this box with:<br>
         <code>&lt;img src="/assets/images/profile.jpg" alt="Your Name"&gt;</code>
       </div>
     </div>
+    <div>
+      <h1 class="hero-name">{{ site.name }}</h1>
+      <span class="eyebrow mono hero-eyebrow">{{ site.role | upcase }}</span>
+      <p class="info mono hero-info">{{ site.university }} &middot; {{ site.department }} &middot; {{ site.location }}</p>
+      <p class="hero-bio">{{ site.currently }}</p>
+    </div>
   </div>
 </section>
+
