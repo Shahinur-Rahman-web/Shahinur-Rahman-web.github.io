@@ -1,0 +1,35 @@
+# ============================================================
+#  YOUR PERSONAL DETAILS — edit this file first.
+#  Changes here update the whole website automatically.
+# ============================================================
+
+name:        "Md Shahinur Rahman"
+role:        "Graduate Student — Coastal & Environmental Science"
+university:  "University of Southern Mississippi"
+department:  "Coastal Sciences Division, School of Ocean Science & Engineering"
+location:    "Ocean Springs, Mississippi"
+email:       "shahinur.usm@gmail.com"
+
+# Leave blank ("") if you don't have a link yet — it won't show up.
+google_scholar: "https://scholar.google.com/citations?user=DLPEoPkAAAAJ&hl=en"
+orcid:          "https://orcid.org/0000-0002-7962-3766"
+linkedin:       "https://www.linkedin.com/in/mdshahinurrahman48"
+github:         "Shahinur-Rahman-web.github.io"
+researchgate:   "https://www.researchgate.net/profile/Md-Shahinur-Rahman-2"
+
+# One-sentence bio shown on the Home page under your name.
+tagline: >
+  "Natural Hazards · Climate Change · Nature-based Solutions · Hydrologic-Hydraulic Modeling · Remote Sensing & GIS · Community Resilience"
+
+# Current focus sentence shown on the Home page.
+currently: >
+  My research focuses on flood risk assessment, green stormwater
+  infrastructure evaluation for stormwater management, and flood resilience 
+  planning through machine learning and community engagement approaches.
+# ============================================================
+#  Do not edit below this line.
+# ============================================================
+markdown:  kramdown
+permalink: pretty
+baseurl:   ""
+url:       ""
