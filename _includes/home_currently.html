@@ -1,0 +1,39 @@
+<section style="padding:52px 0; border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="currently-grid">
+      <div>
+        <span class="eyebrow mono">CURRENTLY</span>
+        <p style="max-width:560px; font-size:1.02rem; color:var(--ink); margin-top:10px;">{{ site.currently }}</p>
+      </div>
+      <div class="currently-photo">
+        Add a field photo here<br>
+        Save it as <code>assets/images/current-work.jpg</code><br>
+        then replace this box with:<br>
+        <code>&lt;img src="/assets/images/current-work.jpg" alt="Field work"&gt;</code>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.currently-grid{
+  display:grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 36px;
+  align-items:center;
+}
+.currently-photo{
+  aspect-ratio: 4/3;
+  border: 1.5px dashed var(--line);
+  border-radius: var(--radius);
+  display:flex; align-items:center; justify-content:center;
+  text-align:center; font-size:0.82rem; color:var(--ink-soft);
+  padding: 18px; background: var(--surface);
+}
+.currently-photo img{
+  width:100%; height:100%; object-fit:cover; border-radius:var(--radius);
+}
+@media (max-width: 760px){
+  .currently-grid{ grid-template-columns: 1fr; }
+}
+</style>
