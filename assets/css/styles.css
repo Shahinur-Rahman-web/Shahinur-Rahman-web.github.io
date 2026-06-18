@@ -233,7 +233,7 @@ section{ padding:38px 0; }
 }
 .hero-eyebrow{ display:block; margin-bottom:0; }
 .hero-info{ margin-top:10px; font-size:1rem; color:var(--ink-soft); }
-.hero-bio{ margin-top:16px; font-size:1.05rem; line-height:1.7; color:var(--ink); max-width:600px; }
+.hero-bio{ margin-top:18px; font-size:1.05rem; line-height:1.7; color:var(--ink); max-width:600px; }
 
 .portrait-wrap img{
   width:200px; height:200px; object-fit:cover;
