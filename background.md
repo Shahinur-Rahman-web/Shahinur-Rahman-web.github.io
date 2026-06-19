@@ -25,7 +25,7 @@ tab_default: education
 <div class="tab-panel" id="education">
 
 <div class="entry">
-<div class="entry-head"><h3>M.S., Coastal Sciences, School of Ocean Science &amp; Engineering</h3><span class="entry-meta mono">Fall 2024 – Present<span class="badge-current">CURRENT</span></span></div>
+<div class="entry-head"><h3>M.S.- Coastal Sciences, School of Ocean Science &amp; Engineering</h3><span class="entry-meta mono">Fall 2024 – Present<span class="badge-current">CURRENT</span></span></div>
 <div class="meta">University of Southern Mississippi, Hattiesburg, MS</div>
 
 Thesis: Evaluating Nature-based Solutions for Stormwater Management and Machine Learning-based Community Resilience Planning in Coastal Mississippi
@@ -33,7 +33,7 @@ Thesis: Evaluating Nature-based Solutions for Stormwater Management and Machine 
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>M.S., Environmental Science, Life Science School</h3><span class="entry-meta mono">2024</span></div>
+<div class="entry-head"><h3>M.S.- Environmental Science, Life Science School</h3><span class="entry-meta mono">2024</span></div>
 <div class="meta">Khulna University, Khulna, Bangladesh</div>
 
 Thesis: Effects of organic amendments on agronomic parameters in agriculture and Cd stressed soil
@@ -41,7 +41,7 @@ Thesis: Effects of organic amendments on agronomic parameters in agriculture and
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>B.S., Environmental Science, Life Science School</h3><span class="entry-meta mono">2020</span></div>
+<div class="entry-head"><h3>B.S.- Environmental Science, Life Science School</h3><span class="entry-meta mono">2020</span></div>
 <div class="meta">Khulna University, Khulna, Bangladesh</div>
 
 Thesis: Trace metals concentration in the ambient air of Khulna city areas
