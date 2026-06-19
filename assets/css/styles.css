@@ -131,7 +131,7 @@ a:hover{ text-decoration:underline; }
 }
 
 /* PAGE HERO */
-.page-hero{ padding:56px 0 32px; border-bottom:1px solid var(--line); }
+.page-hero{ padding:40px 0 26px; border-bottom:1px solid var(--line); }
 .eyebrow{
   display:inline-block; font-size:0.74rem;
   color:var(--accent); font-weight:600;
@@ -165,16 +165,38 @@ section{ padding:38px 0; }
 
 /* ENTRY BLOCKS */
 .entry{
-  padding:24px 0;
+  padding:18px 0 18px 18px;
   border-bottom:1px solid var(--line);
+  border-left:3px solid var(--line);
+  margin-bottom:2px;
+  transition:border-left-color .15s ease, background .15s ease;
 }
-.entry:first-child{ padding-top:0; }
+.entry:hover{
+  border-left-color:var(--accent);
+  background:rgba(30,110,100,0.025);
+}
+.entry:first-child{ padding-top:14px; }
 .entry:last-child{ border-bottom:none; }
-.entry h3{ font-size:1.08rem; margin-bottom:4px; }
+.entry h3{ font-size:1.1rem; margin-bottom:5px; }
 .entry .meta{ color:#3a4346; font-size:1rem; margin-bottom:8px; font-weight:500; }
 .entry p{ margin-top:6px; }
 .entry ul{ margin:8px 0 0; padding-left:20px; color:var(--ink-soft); }
 .entry ul li{ margin-bottom:5px; }
+.entry-meta.mono{
+  font-weight:600;
+}
+.entry .badge-current{
+  display:inline-block;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.65rem;
+  color:#fff;
+  background:var(--accent);
+  border-radius:999px;
+  padding:2px 9px;
+  margin-left:8px;
+  vertical-align:middle;
+  letter-spacing:0.04em;
+}
 
 /* STATUS PILL */
 .pill{
