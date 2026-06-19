@@ -52,8 +52,6 @@ Thesis: Effects of organic amendments on agronomic parameters in agriculture and
 
 Thesis:Trace metals concentration in the ambient air of Khulna city areas
 
-</div>
-
 </div><!-- end education tab -->
 
 <!-- ============================================================
