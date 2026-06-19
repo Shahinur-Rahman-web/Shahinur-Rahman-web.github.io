@@ -10,7 +10,6 @@ tab_default: education
 <div class="wrap">
 <span class="eyebrow mono">BACKGROUND</span>
 <h1>Professional Preparation &amp; Experience</h1>
-<p class="lede">Academic training and professional roles</p>
 </div>
 </section>
 
@@ -19,7 +18,7 @@ tab_default: education
 <div class="tabs" data-default="education">
 
 <div class="tab-buttons">
-  <button class="tab-btn" data-tab="education">Professional Preparation</button>
+  <button class="tab-btn" data-tab="education">Academic Training</button>
   <button class="tab-btn" data-tab="experience">Professional Experience</button>
 </div>
 
@@ -90,7 +89,7 @@ Thesis: Trace metals concentration in the ambient air of Khulna city areas
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>Water Sanitation and Hygiene Promotion Officer, Site Management and Site Development Project</h3><span class="entry-meta mono">December 2021 – June 2022</span></div>
+<div class="entry-head"><h3>Water Sanitation and Hygiene Promotion (WASH) Officer, Site Management and Site Development Project</h3><span class="entry-meta mono">December 2021 – June 2022</span></div>
 <div class="meta">CARE Bangladesh, Cox's Bazar, Bangladesh</div>
 
 </div>
