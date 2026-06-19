@@ -9,7 +9,7 @@ tab_default: education
 <section class="page-hero">
 <div class="wrap">
 <span class="eyebrow mono">BACKGROUND</span>
-<h1>Education &amp; Experience</h1>
+<h1>Professional Presparation &amp; Professional Experience</h1>
 <p class="lede">Academic training and professional roles</p>
 </div>
 </section>
@@ -101,8 +101,6 @@ Thesis:Trace metals concentration in the ambient air of Khulna city areas
 <div class="entry">
 <div class="entry-head"><h3>Research Assistant, Environmental Science Discipline</h3><span class="entry-meta mono">January- December, 2019</span></div>
 <div class="meta">Khulna University, Khulna, Bangladesh</div>
-
-</div>
 
 </div><!-- end experience tab -->
 
