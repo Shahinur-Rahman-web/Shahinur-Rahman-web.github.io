@@ -2,7 +2,7 @@
    DESIGN — do not edit unless you want to
    change colors, fonts, or layout.
    ============================================== */
- 
+
 :root{
   --bg:          #F6F4EF;
   --surface:     #FFFFFF;
@@ -14,10 +14,10 @@
   --radius:      6px;
   --maxw:        1080px;
 }
- 
+
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; font-size:17.5px; }
- 
+
 body{
   margin:0;
   background:var(--bg);
@@ -27,32 +27,32 @@ body{
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
 }
- 
+
 h1,h2,h3{
   font-family:'Spectral',serif;
   line-height:1.25;
   margin:0;
   font-weight:600;
 }
- 
+
 p{ margin:0 0 14px; color:var(--ink-soft); }
 p:last-child{ margin-bottom:0; }
- 
+
 a{ color:var(--accent); text-decoration:none; }
 a:hover{ text-decoration:underline; }
- 
+
 .mono{
   font-family:'IBM Plex Mono',monospace;
   letter-spacing:0.03em;
   font-size:0.78rem;
 }
- 
+
 .wrap{
   max-width:var(--maxw);
   margin:0 auto;
   padding:0 24px;
 }
- 
+
 /* NAV */
 .site-header{
   position:sticky; top:0; z-index:100;
@@ -70,7 +70,7 @@ a:hover{ text-decoration:underline; }
   font-size:1.05rem; color:var(--ink); white-space:nowrap;
 }
 .brand:hover{ text-decoration:none; color:var(--accent); }
- 
+
 .main-nav{ flex:1; margin-right:10px; }
 .main-nav > ul{
   display:flex; gap:4px; justify-content:flex-end;
@@ -84,7 +84,7 @@ a:hover{ text-decoration:underline; }
 }
 .nav-link:hover{ color:var(--accent); text-decoration:none; background:rgba(30,110,100,0.07); }
 .nav-link.active{ color:var(--accent); font-weight:600; }
- 
+
 .has-dropdown{ position:relative; }
 .dropdown-toggle::after{ content:" \25BE"; font-size:0.7em; }
 .dropdown{
@@ -102,21 +102,21 @@ a:hover{ text-decoration:underline; }
   font-size:0.9rem; color:var(--ink); border-radius:4px;
 }
 .dropdown li a:hover{ background:rgba(30,110,100,0.08); text-decoration:none; color:var(--accent); }
- 
+
 .btn-cv{
   font-family:'IBM Plex Mono',monospace; font-size:0.76rem;
   background:var(--accent); color:#fff !important;
   padding:8px 14px; border-radius:var(--radius); white-space:nowrap;
 }
 .btn-cv:hover{ background:var(--accent-dark); text-decoration:none; }
- 
+
 .nav-toggle{
   display:none; background:none;
   border:1px solid var(--line); border-radius:var(--radius);
   padding:6px 10px; font-family:'IBM Plex Mono',monospace;
   font-size:0.76rem; cursor:pointer;
 }
- 
+
 @media(max-width:860px){
   .main-nav{
     display:none; position:absolute; top:100%; left:0; right:0;
@@ -129,7 +129,7 @@ a:hover{ text-decoration:underline; }
   .nav-toggle{ display:inline-block; }
   .header-inner{ flex-wrap:wrap; }
 }
- 
+
 /* PAGE HERO */
 .page-hero{ padding:56px 0 32px; border-bottom:1px solid var(--line); }
 .eyebrow{
@@ -139,11 +139,11 @@ a:hover{ text-decoration:underline; }
 }
 .page-hero h1{ font-size:clamp(2rem,4vw,2.6rem); }
 .page-hero .lede{ margin-top:12px; max-width:640px; font-size:1.05rem; }
- 
+
 section{ padding:38px 0; }
 .section-head{ margin-bottom:20px; }
 .section-head h2{ font-size:clamp(1.4rem,3vw,1.8rem); }
- 
+
 /* IN-PAGE TABS */
 .tab-buttons{
   display:flex; gap:8px;
@@ -162,7 +162,7 @@ section{ padding:38px 0; }
 .tab-btn.active{ color:var(--ink); font-weight:600; }
 .tab-btn.active::after{ background:var(--accent); }
 .tab-btn:hover{ color:var(--ink); }
- 
+
 /* ENTRY BLOCKS */
 .entry{
   padding:24px 0;
@@ -175,7 +175,7 @@ section{ padding:38px 0; }
 .entry p{ margin-top:6px; }
 .entry ul{ margin:8px 0 0; padding-left:20px; color:var(--ink-soft); }
 .entry ul li{ margin-bottom:5px; }
- 
+
 /* STATUS PILL */
 .pill{
   display:inline-block;
@@ -184,7 +184,7 @@ section{ padding:38px 0; }
   background:rgba(30,110,100,0.1);
   border-radius:999px; padding:3px 10px; margin-bottom:8px;
 }
- 
+
 /* CARDS */
 .card-grid{
   display:grid; grid-template-columns:repeat(3,1fr); gap:18px;
@@ -200,7 +200,7 @@ section{ padding:38px 0; }
 .card h3{ font-size:1.05rem; margin-bottom:6px; color:var(--ink); }
 .card p{ font-size:0.92rem; margin:0; }
 @media(max-width:860px){ .card-grid{ grid-template-columns:1fr; } }
- 
+
 /* CHIPS */
 .chip-row{ display:flex; flex-wrap:wrap; gap:10px; }
 .chip{
@@ -208,7 +208,7 @@ section{ padding:38px 0; }
   background:var(--surface); border:1px solid var(--line);
   color:var(--ink); border-radius:999px; padding:7px 14px;
 }
- 
+
 /* PHOTO GRID */
 .photo-grid{
   display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:18px;
@@ -223,7 +223,7 @@ section{ padding:38px 0; }
   width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:var(--radius);
 }
 @media(max-width:860px){ .photo-grid{ grid-template-columns:repeat(2,1fr); } }
- 
+
 /* HOME */
 .home-hero{ padding:48px 0 28px; border-bottom:1px solid var(--line); }
 .hero-name{
@@ -233,12 +233,12 @@ section{ padding:38px 0; }
   color:var(--accent);
 }
 .hero-bio{
-  margin-top:0; font-size:1.08rem; line-height:1.55;
-  color:#000; max-width:620px;
-  font-style:normal; font-family:'Spectral', serif;
+  margin-top:0; font-size:1.12rem; line-height:1.72;
+  color:#1a1a1a; max-width:620px;
+  font-style:italic; font-family:'Spectral', serif;
   text-align:justify;
 }
- 
+
 .portrait-wrap img{
   width:200px; height:200px; object-fit:cover;
   border-radius:50%; display:block;
@@ -262,7 +262,7 @@ section{ padding:38px 0; }
   .hero-name{ white-space:normal; }
   .portrait-placeholder.round, .portrait-wrap img{ width:140px; height:140px; }
 }
- 
+
 /* FOOTER */
 footer{
   border-top:1px solid var(--line); padding:24px 0 32px;
