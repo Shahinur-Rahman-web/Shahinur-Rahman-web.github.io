@@ -83,7 +83,7 @@ Thesis: Trace metals concentration in the ambient air of Khulna city areas
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>Water Sanitation and Hygiene Promotion Officer, Site Management and Site Development Project</h3><span class="entry-meta mono">December 2021 – June 2022</span></div>
+<div class="entry-head"><h3>Water Sanitation and Hygiene Promotion (WASH) Officer, Site Management and Site Development Project</h3><span class="entry-meta mono">December 2021 – June 2022</span></div>
 <div class="meta">CARE Bangladesh, Cox's Bazar, Bangladesh</div>
 
 </div>
