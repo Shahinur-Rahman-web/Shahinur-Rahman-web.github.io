@@ -10,7 +10,6 @@ tab_default: education
 <div class="wrap">
 <span class="eyebrow mono">BACKGROUND</span>
 <h1>Professional Preparation &amp; Experience</h1>
-<p class="lede">Academic training and professional roles.</p>
 </div>
 </section>
 
