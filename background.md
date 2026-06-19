@@ -10,7 +10,7 @@ tab_default: education
 <div class="wrap">
 <span class="eyebrow mono">BACKGROUND</span>
 <h1>Education &amp; Experience</h1>
-<p class="lede">Academic training and professional roles, including restoration fieldwork and community-facing research.</p>
+<p class="lede">Academic training and professional roles</p>
 </div>
 </section>
 
@@ -31,34 +31,26 @@ tab_default: education
 <div class="tab-panel" id="education">
 
 <div class="entry">
-<div class="entry-head"><h3>Ph.D., Coastal Sciences</h3><span class="entry-meta mono">2023 – Present</span></div>
+<div class="entry-head"><h3>M.S., Coastal Sciences, School of Ocean Science & Engineering </h3><span class="entry-meta mono"> Fall 2024 – Present</span></div>
 <div class="meta">University of Southern Mississippi, Hattiesburg, MS</div>
 
-Dissertation: monitoring and modeling green stormwater infrastructure performance at a Gulf Coast elementary school, integrated with compound flood risk analysis and machine-learning-based resilience planning.
+Thesis: Evaluating Nature-based Solutions for Stormwater Management and Machine Learning-based Community Resilience Planning in Coastal Mississippi
 
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>M.S., Coastal Science</h3><span class="entry-meta mono">YEAR – YEAR</span></div>
-<div class="meta">UNIVERSITY NAME, City, State</div>
+<div class="entry-head"><h3>M.S., Environmental Science, Life Science School</h3><span class="entry-meta mono">2024</span></div>
+<div class="meta">Khulna University, Khulna, Bangladesh</div>
 
-Add a sentence about your thesis topic or focus area, or delete this line if you prefer to leave it blank.
-
-</div>
-
-<div class="entry">
-<div class="entry-head"><h3>M.S., Environmental Science</h3><span class="entry-meta mono">YEAR – YEAR</span></div>
-<div class="meta">UNIVERSITY NAME, City, State</div>
-
-Add a sentence about your thesis topic or focus area, or delete this line.
+Thesis: Effects of organic amendments on agronomic parameters in agriculture and Cd stressed soil
 
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>B.S., Environmental Science</h3><span class="entry-meta mono">YEAR – YEAR</span></div>
-<div class="meta">UNIVERSITY NAME, City, State</div>
+<div class="entry-head"><h3>B.S., Environmental Science, Life Science School</h3><span class="entry-meta mono">2020</span></div>
+<div class="meta">Khulna University, Khulna, Bangladesh</div>
 
-Add a sentence about honors, capstone, or relevant coursework, or delete this line.
+Thesis:Trace metals concentration in the ambient air of Khulna city areas
 
 </div>
 
@@ -70,43 +62,47 @@ Add a sentence about honors, capstone, or relevant coursework, or delete this li
 <div class="tab-panel" id="experience" hidden>
 
 <div class="entry">
-<div class="entry-head"><h3>Graduate Research Assistant</h3><span class="entry-meta mono">YEAR – Present</span></div>
-<div class="meta">University of Southern Mississippi, Department of Coastal Sciences</div>
-
-- Designed and calibrated a 31-subcatchment PCSWMM hydrologic model of green stormwater infrastructure at a Gulf Coast school site.
-- Built an R-based correction workflow for HOBO water-level logger data, addressing barometric and timezone errors.
-- Conducted compound flood driver analysis combining rainfall, river discharge, and tidal records for the Pascagoula River basin (2008–2024).
-- Developed machine learning models (Random Forest, XGBoost) for flood resilience planning in Moss Point, MS.
+<div class="entry-head"><h3>Graduate Research Assistant</h3><span class="entry-meta mono">2024 – Present</span></div>
+<div class="meta">Coastal Sciences Division, University of Southern Mississippi, Ocean Springs, MS</div>
 
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>ROLE TITLE (e.g. Restoration Field Technician)</h3><span class="entry-meta mono">MONTH YEAR – MONTH YEAR</span></div>
-<div class="meta">ORGANIZATION NAME, City, State</div>
-
-- Collected native plant seed for coastal restoration projects.
-- Managed greenhouse and nursery supply chain operations supporting restoration plantings.
-- ADD another bullet here, or delete this line.
+<div class="entry-head"><h3>Graduate Teaching Assistant, Summer Field Program</h3><span class="entry-meta mono">May-July, 2025</span></div>
+<div class="meta">Marine Education Center, University of Southern Mississippi, Ocean Springs, MS</div>
 
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>ROLE TITLE (e.g. Field Operations / HSE)</h3><span class="entry-meta mono">MONTH YEAR – MONTH YEAR</span></div>
-<div class="meta">ORGANIZATION NAME, City, State</div>
+<div class="entry-head"><h3>Officer-Market Development, USAID’s Feed the Future Bangladesh Nutrition Activity</h3><span class="entry-meta mono">January-July, 2024</span></div>
+<div class="meta">International Development Enterprises(iDE), Khulna, Bangladesh</div>
 
-- Supported humanitarian field operations with a focus on health, safety, and disaster risk reduction.
-- ADD a bullet describing a specific responsibility or achievement.
-- ADD a bullet describing a specific responsibility or achievement.
+</div>
+<div class="entry">
+<div class="entry-head"><h3>Water Sanitation and Hygiene Promotion (WASH) Officer, Disaster Risk Reduction project</h3><span class="entry-meta mono">July 2022- December 2023</span></div>
+<div class="meta">Christian Aid (CAID), Cox's Bazar, Bangladesh</div>
+
+</div>
+<div class="entry">
+<div class="entry-head"><h3>Principal Investigator (PI), Climate Justice Research project </h3><span class="entry-meta mono">November 2022- March 2023</span></div>
+<div class="meta">Christian Aid (CAID), London, England (Remote)</div>
+
+</div>
+<div class="entry">
+<div class="entry-head"><h3>Water Sanitation and Hygiene Promotion Officer, Site Management and Site Development Project</h3><span class="entry-meta mono">December 2021- June 2022</span></div>
+<div class="meta">CARE Bangladesh, Cox's Bazar, Bangladesh</div>
 
 </div>
 
 <div class="entry">
-<div class="entry-head"><h3>ROLE TITLE (community / social research work)</h3><span class="entry-meta mono">MONTH YEAR – MONTH YEAR</span></div>
-<div class="meta">ORGANIZATION NAME, City, State</div>
+<div class="entry-head"><h3>Environmental Health and Safety (EHS) Officer</h3><span class="entry-meta mono">October 2020- December 2021</span></div>
+<div class="meta">General Pharmaceuticals Limited, Dhaka, Bangladesh</div></div>
 
-- ADD what this role involved — surveys, interviews, community outreach, etc.
-- ADD the population or community engaged and purpose of the work.
-- ADD an outcome, skill gained, or method used.
+</div>
+
+<div class="entry">
+<div class="entry-head"><h3>Research Assistant, Environmental Science Discipline</h3><span class="entry-meta mono">January- December, 2019</span></div>
+<div class="meta">Khulna University, Khulna, Bangladesh</div>
 
 </div>
 
